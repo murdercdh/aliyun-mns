@@ -1,0 +1,36 @@
+{
+  "name": "aliyun/mns",
+  "type": "library",
+  "description": "aliyun queue mns client side sdk for php.",
+  "version":"1.0.1",
+  "keywords": [
+    "mns",
+    "aliyun",
+    "ocs",
+    "kvstore",
+    "memcache"
+  ],
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "donegalchen",
+      "email": "murdercdh@hotmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload": {
+    "files": [
+      "src/GuzzleHttp/functions_include.php",
+      "src/GuzzleHttp/Psr7/functions_include.php",
+      "src/GuzzleHttp/Promise/functions_include.php"
+    ],
+    "psr-4": {
+      "AliyunMNS\\": "src/"
+    }
+  }
+}
