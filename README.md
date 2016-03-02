@@ -25,7 +25,7 @@ just composer require aliyun/mns
 				"version": "1.0.1",
 				"source": {
 					"type": "git",
-					"url": "git@github.com:murdercdh/aliyun-mns.git",
+					"url": "https://github.com/murdercdh/aliyun-mns.git",
 					"reference": "master"
 				},
 				"autoload": {
